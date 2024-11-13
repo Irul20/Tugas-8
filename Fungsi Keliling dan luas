@@ -1,0 +1,14 @@
+#fungsi mencari luas
+def luas(panjang,lebar):
+    return panjang*lebar
+#fungsi mencari keliling 
+def keliling (panjang, lebar):
+    return 2* panjang+lebar
+
+a = int(input("masukkan nilai panjang: "))
+b =int(input("masukkan nilai lebar: "))
+
+hasil =luas(a,b)
+hasil = keliling(a,b)
+print("luas:",hasil)
+print("keliling:",hasil)
